@@ -1,0 +1,64 @@
+/* Resetting default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling for the body */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling for the header */
+  header {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styling for links in the header */
+  header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
+  /* Styling for the main content */
+  main {
+    padding: 20px;
+  }
+  
+  /* Styling for headings */
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  /* Styling for paragraphs */
+  p {
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  /* Styling for images */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Styling for a simple button */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #337ab7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #286090;
+  }
+  
+  

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riot Games Maps</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Riot Games Maps</h1>
+    <h2>By Kittaamon</h2>
+  </header>
+
+  <main>
+    <div id="map-selection">
+      <div class="buttons-container">
+        <button onclick="startGame('Ascent')" class="button">Ascent</button>
+        <button onclick="startGame('Bind')" class="button">Bind</button>
+        <button onclick="startGame('Breeze')" class="button">Breeze</button>
+        <button onclick="startGame('Haven')" class="button">Haven</button>
+        <button onclick="startGame('Split')" class="button">Split</button>
+        <button onclick="startGame('Lotus')" class="button">Lotus</button>
+        <button onclick="startGame('Sunset')" class="button">Sunset</button>
+        <!-- Add other map buttons similarly -->
+      </div>
+    </div>
+
+    <div id="game" style="display: none;">
+      <div id="question-container">
+        <h2>Which side are you on?</h2>
+        <button onclick="playRound('Defenders')" class="button">Defender</button>
+        <button onclick="playRound('Attackers')" class="button">Attacker</button>
+      </div>
+
+      <div id="suggestion">
+        Try: 
+      </div>
+
+      <div id="score-display">
+        Your Team: 0 | Enemy Team: 0
+      </div>
+
+      <a href="#" id="back-button" class="button" onclick="goBack()">Go Back to Map Selection</a>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
